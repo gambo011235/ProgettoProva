@@ -12,7 +12,12 @@ public class Prova implements Runnable {
     public void run() {
         System.out.println("Hello from a thread!");
         try {
-            Thread.sleep(3000);
+            Double i=0D;
+            while(i<0.5)
+            {
+                i=Math.random();
+                Thread.sleep(1000);
+            }
         } catch(InterruptedException e)
         {
             System.out.println(e.getMessage());
