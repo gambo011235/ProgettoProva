@@ -24,5 +24,5 @@ public class Prova implements Runnable {
         Thread t = new Thread(new Prova());
         t.start();
     }
-
+    //MASTER
 }
